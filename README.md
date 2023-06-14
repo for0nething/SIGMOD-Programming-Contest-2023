@@ -1,7 +1,7 @@
 # SIGMOD Programming Contest 2023
 
 This is the code for champion solution of [ACM SIGMOD programming competition 2023](http://sigmod2023contest.eastus.cloudapp.azure.com/index.shtml).
-The core idea of our approach can be found in [the poster](http://sigmod2023contest.eastus.cloudapp.azure.com/index.shtml).
+The core idea of this approach can be found in the [poster](http://sigmod2023contest.eastus.cloudapp.azure.com/index.shtml).
 
 Using this code, an almost fully accurate K-nearest-neighbor graph can be built for tens of millions of high-dimensional vectors in a very short time.
 
@@ -40,3 +40,11 @@ This enhanced code was then leveraged to tackle the contest problem.
     - Note that the compiled program accepts the same arguments as the example code provided in the contest. 
     So you can also change datasets in the same way.
     - The parameters that obtained the best result in the contest are already set in `knn-construction-kgraph.cc`. So you do not need to change anything.
+
+## Results
+Build 100-NN graph for 10M 100-dimensional vectors in the [contest](http://sigmod2023contest.eastus.cloudapp.azure.com/leaders.shtml).
+Test on Azure Standard F32s_v2.
+
+**Recall**: 0.987
+
+**Building Runtime**: 1854s
