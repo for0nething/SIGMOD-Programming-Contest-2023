@@ -1,7 +1,7 @@
 # SIGMOD Programming Contest 2023
 
 This is the code for champion solution of [ACM SIGMOD programming competition 2023](http://sigmod2023contest.eastus.cloudapp.azure.com/index.shtml).
-The core idea of this approach can be found in the [poster](http://sigmod2023contest.eastus.cloudapp.azure.com/index.shtml).
+The core idea of this approach can be found in the [poster](poster.pdf).
 
 Using this code, an almost fully accurate K-nearest-neighbor graph can be built for tens of millions of high-dimensional vectors in a very short time.
 
